@@ -1,0 +1,5 @@
+{
+  "name": "Naver News Blog Generator",
+  "description": "A powerful SaaS tool that automates the creation of high-quality blog content based on Naver News current events.",
+  "requestFramePermissions": []
+}
