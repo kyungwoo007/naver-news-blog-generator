@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { BlogPost, ChatMessage } from '../types';
 import { Button } from './Button';
 import { refineBlogContent, translateBlogContent } from '../services/geminiService';
-import { Send, ArrowLeft, Save, Sparkles, Layout, Monitor, Download, Globe, FileText, File as FileIcon } from 'lucide-react';
+import { Send, ArrowLeft, Sparkles, Layout, Monitor, Download, Globe, FileText, File as FileIcon } from 'lucide-react';
 
 // Add html2pdf to window type
 declare global {
