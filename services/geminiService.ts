@@ -2,7 +2,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { GeneratorConfig, BlogPost } from "../types";
 
 // Initialize Gemini Client
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 const modelName = "gemini-2.5-flash";
 
